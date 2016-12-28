@@ -1,0 +1,48 @@
+---
+title: "Using R in a blog"
+author: "Andrie de Vries"
+date: 2016-12-21T07:00:00Z
+categories: ["R"]
+description: ""
+featured: ""
+featuredalt: ""
+featuredpath: ""
+linktitle: "using-r-in-blog"
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+You can do many things with R, including writing blogs and blog posts.
+
+To build this site, I am using the [Hugo](http://gohugo.io/) static website generator, and the [blogdown](https://github.com/rstudio/blogdown) package.
+
+# Using R and embedding code in the text
+
+This means I can embed R code directly in the text.
+
+The `blogdown::serve_site()` function then renders the content automatically (by first running `rmarkdown` and then letting Hugo buidl the site).
+
+So I can do this:
+
+```{r intro}
+1:100
+mean(1:100)
+```
+
+# Including Plots
+
+You can also embed plots:
+
+```{r pie, fig.cap='A fancy pie chart.'}
+par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
+  col = c('#0292D8', '#F7EA39', '#C4B632'),
+  init.angle = -50, border = NA
+)
+```
+
