@@ -1,4 +1,4 @@
-baseurl = "https://andrie.github.io/revo-andrie/"
+baseurl = "https://andrie.github.io/"
 relativeurls = true
 languageCode = "en-us"
 title = "Revo::Andrie"
