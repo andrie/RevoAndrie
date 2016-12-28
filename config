@@ -1,0 +1,10 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@github.com:andrie/revo-andrie.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	puttykeyfile = C:\\Users\\adevries\\Dropbox\\github\\github-andrie-private-key.ppk

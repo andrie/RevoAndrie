@@ -1,0 +1,7 @@
+﻿build_script.R
+*.Rproj
+*.rxproj
+*.sln
+.vs/*
+public/*
+.Rproj.user/*
