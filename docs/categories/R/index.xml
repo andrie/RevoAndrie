@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>r on Revo::Andrie</title>
-    <link>https://andrie.github.io/revo-andrie/categories/r/index.xml</link>
+    <link>https://andrie.github.io/categories/r/index.xml</link>
     <description>Recent content in r on Revo::Andrie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Andrie de Vries</copyright>
-    <atom:link href="https://andrie.github.io/revo-andrie/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://andrie.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Using R in a blog</title>
-      <link>https://andrie.github.io/revo-andrie/post/002-Using-R-in-a-blog/</link>
+      <link>https://andrie.github.io/post/002-Using-R-in-a-blog/</link>
       <pubDate>Wed, 21 Dec 2016 07:00:00 +0000</pubDate>
       
-      <guid>https://andrie.github.io/revo-andrie/post/002-Using-R-in-a-blog/</guid>
+      <guid>https://andrie.github.io/post/002-Using-R-in-a-blog/</guid>
       <description>&lt;!-- BLOGDOWN-BODY-BEFORE
 
 /BLOGDOWN-BODY-BEFORE --&gt;
