@@ -2,7 +2,6 @@ baseurl = "https://andrie.github.io/"
 relativeurls = true
 languageCode = "en-us"
 title = "Revo::Andrie"
-publishdir = "andrie.github.io/revo-andrie"
 copyright = "Andrie de Vries"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
