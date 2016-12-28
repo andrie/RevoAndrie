@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Revo::Andrie</title>
-    <link>/index.xml</link>
+    <link>https://andrie.github.io/revo-andrie/index.xml</link>
     <description>Recent content on Revo::Andrie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Andrie de Vries</copyright>
     <lastBuildDate>Wed, 28 Dec 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://andrie.github.io/revo-andrie/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About Andrie</title>
-      <link>/about/</link>
+      <link>https://andrie.github.io/revo-andrie/about/</link>
       <pubDate>Wed, 28 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://andrie.github.io/revo-andrie/about/</guid>
       <description>&lt;p&gt;Andrie de Vries is a data scientist, author and R programmer.&lt;/p&gt;
 
 &lt;p&gt;Andrie is co-author of the book &lt;em&gt;R for dummies&lt;/em&gt;, the book that helps everyone getting started with R, regardless of prior programming knowledge. He is also a regular contributor to the question and answer site StackOverflow.&lt;/p&gt;
@@ -36,10 +37,10 @@
     
     <item>
       <title>Using R in a blog</title>
-      <link>/post/002-Using-R-in-a-blog/</link>
+      <link>https://andrie.github.io/revo-andrie/post/002-Using-R-in-a-blog/</link>
       <pubDate>Wed, 21 Dec 2016 07:00:00 +0000</pubDate>
       
-      <guid>/post/002-Using-R-in-a-blog/</guid>
+      <guid>https://andrie.github.io/revo-andrie/post/002-Using-R-in-a-blog/</guid>
       <description>&lt;!-- BLOGDOWN-BODY-BEFORE
 
 /BLOGDOWN-BODY-BEFORE --&gt;
@@ -94,10 +95,10 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>Hallo World</title>
-      <link>/post/001-Hallo-world/</link>
+      <link>https://andrie.github.io/revo-andrie/post/001-Hallo-world/</link>
       <pubDate>Tue, 20 Dec 2016 06:46:55 +0000</pubDate>
       
-      <guid>/post/001-Hallo-world/</guid>
+      <guid>https://andrie.github.io/revo-andrie/post/001-Hallo-world/</guid>
       <description>
 
 &lt;h1 id=&#34;hallo-world&#34;&gt;Hallo world&lt;/h1&gt;

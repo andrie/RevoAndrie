@@ -2,18 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>general on Revo::Andrie</title>
-    <link>/categories/general/index.xml</link>
+    <link>https://andrie.github.io/revo-andrie/categories/general/index.xml</link>
     <description>Recent content in general on Revo::Andrie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Andrie de Vries</copyright>
+    <atom:link href="https://andrie.github.io/revo-andrie/categories/general/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hallo World</title>
-      <link>/post/001-Hallo-world/</link>
+      <link>https://andrie.github.io/revo-andrie/post/001-Hallo-world/</link>
       <pubDate>Tue, 20 Dec 2016 06:46:55 +0000</pubDate>
       
-      <guid>/post/001-Hallo-world/</guid>
+      <guid>https://andrie.github.io/revo-andrie/post/001-Hallo-world/</guid>
       <description>
 
 &lt;h1 id=&#34;hallo-world&#34;&gt;Hallo world&lt;/h1&gt;
