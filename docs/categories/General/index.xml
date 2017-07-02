@@ -1,30 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>general on Revo::Andrie</title>
-    <link>https://andrie.github.io/revo-andrie/categories/general/index.xml</link>
-    <description>Recent content in general on Revo::Andrie</description>
+    <title>General on Revo::Andrie</title>
+    <link>/categories/general/</link>
+    <description>Recent content in General on Revo::Andrie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Andrie de Vries</copyright>
-    <atom:link href="https://andrie.github.io/revo-andrie/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Dec 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Hallo World</title>
-      <link>https://andrie.github.io/revo-andrie/post/001-Hallo-world/</link>
-      <pubDate>Tue, 20 Dec 2016 06:46:55 +0000</pubDate>
+      <link>/blog/2016-12-20-hallo-world/</link>
+      <pubDate>Tue, 20 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://andrie.github.io/revo-andrie/post/001-Hallo-world/</guid>
-      <description>
-
-&lt;h1 id=&#34;hallo-world&#34;&gt;Hallo world&lt;/h1&gt;
-
-&lt;p&gt;I have many ideas and explore some of them.  But my memory is short, so I tend to forget what I&amp;rsquo;ve done or how to do it.&lt;/p&gt;
-
-&lt;p&gt;My intention with this blog is to write down random ideas on a variety of things I work on.&lt;/p&gt;
-
-&lt;p&gt;So in this blog I will explore the world of R, machine learning and advanced analytics on Azure Cortana Intelligence Suite (CIS).  But expect to get random ideas on Python, software development and other topics.&lt;/p&gt;
-</description>
+      <guid>/blog/2016-12-20-hallo-world/</guid>
+      <description>I have many ideas and explore some of them. But my memory is short, so I tend to forget what I&amp;rsquo;ve done or how to do it.
+My intention with this blog is to write down random ideas on a variety of things I work on.
+So in this blog I will explore the world of R, machine learning and advanced analytics on Azure Cortana Intelligence Suite (CIS). But expect to get random ideas on Python, software development and other topics.</description>
     </item>
     
   </channel>

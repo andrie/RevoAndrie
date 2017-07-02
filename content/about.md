@@ -5,7 +5,7 @@ date: "2016-12-28"
 
 Andrie de Vries is a data scientist, author and R programmer.
 
-Andrie is co-author of the book *R for dummies*, the book that helps everyone getting started with R, regardless of prior programming knowledge. He is also a regular contributor to the question and answer site StackOverflow.
+Andrie is co-author of the book *R for dummies*, the book that helps everyone getting started with R, regardless of prior programming knowledge. He is also a regular contributor to the question and answer site StackOverflow.
 
 He is also a regular speaker at R and industry events, including:
 
