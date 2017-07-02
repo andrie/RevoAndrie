@@ -8,7 +8,7 @@ categories:
 description: ""
 featured: ""
 featuredalt: ""
-featuredpath: "using-r-in-blog"
+featuredpath: ""
 ---
 
 ```{r setup, include=FALSE}

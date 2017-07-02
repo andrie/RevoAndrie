@@ -25,7 +25,7 @@ canonifyurls = true
 publishdir = "docs"
 
 [permalinks]
-  post = "/:year/:month/:slug/"
+  post = "/:year-:month/:slug/"
 
 [taxonomies]
   tag = "tags"

@@ -21,23 +21,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.24.1">
     <meta name="theme" content="Tranquilpeak 0.3.1-BETA">
-    <title>Creating a New Theme</title>
+    <title>Using R in a blog</title>
     <meta name="author" content="Andrie de Vries">
     <meta name="keywords" content="">
 
-    <link rel="icon" href="../../favicon.png">
+    <link rel="icon" href="../../../../favicon.png">
     
 
     
-    <meta name="description" content="Learn how to create a theme on Hugo">
-    <meta property="og:description" content="Learn how to create a theme on Hugo">
+    <meta name="description" content="---
+author: &#34;Andrie de Vries&#34;
+title: &#34;Using R in a blog&#34;
+type: &#34;post&#34;
+date: &#34;2016-12-21&#34;
+categories: - &#34;R&#34;
+description: &#34;&#34;
+featured: &#34;&#34;
+featuredalt: &#34;&#34;
+featuredpath: &#34;&#34;
+---
+You can do many things with R, including writing blogs and blog posts.
+To build this site, I am using the Hugo static website generator, and the blogdown package.
+Using R and embedding code in the text
+This means I can embed R code directly in the text.">
+    <meta property="og:description" content="---
+author: &#34;Andrie de Vries&#34;
+title: &#34;Using R in a blog&#34;
+type: &#34;post&#34;
+date: &#34;2016-12-21&#34;
+categories: - &#34;R&#34;
+description: &#34;&#34;
+featured: &#34;&#34;
+featuredalt: &#34;&#34;
+featuredpath: &#34;&#34;
+---
+You can do many things with R, including writing blogs and blog posts.
+To build this site, I am using the Hugo static website generator, and the blogdown package.
+Using R and embedding code in the text
+This means I can embed R code directly in the text.">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Creating a New Theme">
-    <meta property="og:url" content="/blog/theme/">
+    <meta property="og:title" content="Using R in a blog">
+    <meta property="og:url" content="/2016/12/21/using-r-in-a-blog/">
     <meta property="og:site_name" content="Revo::Andrie">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Revo::Andrie">
-    <meta name="twitter:description" content="Learn how to create a theme on Hugo">
+    <meta name="twitter:description" content="---
+author: &#34;Andrie de Vries&#34;
+title: &#34;Using R in a blog&#34;
+type: &#34;post&#34;
+date: &#34;2016-12-21&#34;
+categories: - &#34;R&#34;
+description: &#34;&#34;
+featured: &#34;&#34;
+featuredalt: &#34;&#34;
+featuredpath: &#34;&#34;
+---
+You can do many things with R, including writing blogs and blog posts.
+To build this site, I am using the Hugo static website generator, and the blogdown package.
+Using R and embedding code in the text
+This means I can embed R code directly in the text.">
     
       <meta name="twitter:creator" content="@RevoAndrie">
     
@@ -62,7 +104,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" />
     
     
-    <link rel="stylesheet" href="../../css/style-u6mk0ojoywresbx8iepslrmmhl4stuhrsxuwhkpwrkrx7mryjcaimasnk4pi.min.css" />
+    <link rel="stylesheet" href="../../../../css/style-u6mk0ojoywresbx8iepslrmmhl4stuhrsxuwhkpwrkrx7mryjcaimasnk4pi.min.css" />
     
     
 
@@ -70,6 +112,12 @@
       
     
     
+
+
+
+
+
+
   </head>
 
   <body>
@@ -77,12 +125,12 @@
       <header id="header" data-behavior="4">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
-    <a class="header-title-link" href="../../">Revo::Andrie</a>
+    <a class="header-title-link" href="../../../../">Revo::Andrie</a>
   </div>
   
     
       <a class="header-right-picture "
-         href="../../#about">
+         href="../../../../#about">
     
     
     
@@ -98,7 +146,7 @@
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
-        <a href="../../#about">
+        <a href="../../../../#about">
           <img class="sidebar-profile-picture" src="https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png" alt="Author&#39;s picture" />
         </a>
         <h4 class="sidebar-profile-name">Andrie de Vries</h4>
@@ -111,7 +159,7 @@
       
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="../../categories">
+      <a class="sidebar-button-link " href="../../../../categories">
     
       <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
       
@@ -121,7 +169,7 @@
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="../../tags">
+      <a class="sidebar-button-link " href="../../../../tags">
     
       <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
       
@@ -131,7 +179,7 @@
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="../../archives">
+      <a class="sidebar-button-link " href="../../../../archives">
     
       <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
       
@@ -141,7 +189,7 @@
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="../../#about">
+      <a class="sidebar-button-link " href="../../../../#about">
     
       <i class="sidebar-button-icon fa fa-lg fa-question"></i>
       
@@ -151,7 +199,7 @@
 
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="../../">
+      <a class="sidebar-button-link " href="../../../../">
     
       <i class="sidebar-button-icon fa fa-lg fa-home"></i>
       
@@ -187,7 +235,7 @@
       
   <li class="sidebar-button">
     
-      <a class="sidebar-button-link " href="../../index.xml">
+      <a class="sidebar-button-link " href="../../../../index.xml">
     
       <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
       
@@ -211,14 +259,14 @@
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title" itemprop="headline">
-      Creating a New Theme
+      Using R in a blog
     </h1>
   
   <div class="postShorten-meta post-meta">
   
-    <time itemprop="datePublished" datetime="2014-09-28T00:00:00Z">
+    <time itemprop="datePublished" datetime="2016-12-21T00:00:00Z">
       
-  September 28, 2014
+  December 21, 2016
 
     </time>
   
@@ -227,7 +275,7 @@
   
     <span>in</span>
     
-      <a class="category-link" href="../../categories/hugo">Hugo</a>
+      <a class="category-link" href="../../../../categories/r">R</a>
     
   
 
@@ -238,11 +286,51 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              
+              ---
+author: "Andrie de Vries"
+title: "Using R in a blog"
+type: "post"
+date: "2016-12-21"
+categories: 
+- "R"
+description: ""
+featured: ""
+featuredalt: ""
+featuredpath: ""
+---
 
-<h2 id="introduction">Introduction</h2>
 
-<p>All of this is made up.</p>
+
+
+<p>You can do many things with R, including writing blogs and blog posts.</p>
+<p>To build this site, I am using the <a href="http://gohugo.io/">Hugo</a> static website generator, and the <a href="https://github.com/rstudio/blogdown"><code>blogdown</code></a> package.</p>
+<div id="using-r-and-embedding-code-in-the-text" class="section level2">
+<h2>Using R and embedding code in the text</h2>
+<p>This means I can embed R code directly in the text.</p>
+<p>The <code>blogdown::serve_site()</code> function then renders the content automatically (by first running <code>rmarkdown</code> and then letting Hugo build the site).</p>
+<p>So I can do this:</p>
+<pre class="r"><code>1:50
+##  [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+## [24] 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46
+## [47] 47 48 49 50
+mean(1:50)
+## [1] 25.5</code></pre>
+</div>
+<div id="including-plots" class="section level2">
+<h2>Including Plots</h2>
+<p>It is also easy to include plots:</p>
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<p><img src="figures/pie-1.png" width="672" /></p>
+</div>
+
+
+
 
               
             </div>
@@ -257,7 +345,7 @@
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="../../blog/2016-12-20-hallo-world/" data-tooltip="Hallo World">
+            <a class="post-action-btn btn btn--disabled">
           
             <i class="fa fa-angle-left"></i>
             <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -265,7 +353,7 @@
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--disabled">
+            <a class="post-action-btn btn btn--default tooltip--top" href="../../../../2016/12/20/hallo-world/" data-tooltip="Hallo World">
           
             <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
             <i class="fa fa-angle-right"></i>
@@ -282,17 +370,17 @@
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=%2fblog%2ftheme%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=%2f2016%2f12%2f21%2fusing-r-in-a-blog%2f">
           <i class="fa fa-google-plus"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2fblog%2ftheme%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2f2016%2f12%2f21%2fusing-r-in-a-blog%2f">
           <i class="fa fa-facebook-official"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=%2fblog%2ftheme%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=%2f2016%2f12%2f21%2fusing-r-in-a-blog%2f">
           <i class="fa fa-twitter"></i>
         </a>
       </li>
@@ -338,7 +426,7 @@
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="../../blog/2016-12-20-hallo-world/" data-tooltip="Hallo World">
+            <a class="post-action-btn btn btn--disabled">
           
             <i class="fa fa-angle-left"></i>
             <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -346,7 +434,7 @@
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--disabled">
+            <a class="post-action-btn btn btn--default tooltip--top" href="../../../../2016/12/20/hallo-world/" data-tooltip="Hallo World">
           
             <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
             <i class="fa fa-angle-right"></i>
@@ -363,17 +451,17 @@
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=%2fblog%2ftheme%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=%2f2016%2f12%2f21%2fusing-r-in-a-blog%2f">
           <i class="fa fa-google-plus"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2fblog%2ftheme%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2f2016%2f12%2f21%2fusing-r-in-a-blog%2f">
           <i class="fa fa-facebook-official"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=%2fblog%2ftheme%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=%2f2016%2f12%2f21%2fusing-r-in-a-blog%2f">
           <i class="fa fa-twitter"></i>
         </a>
       </li>
@@ -400,17 +488,17 @@
       <div id="share-options-bar" class="share-options-bar" data-behavior="4">
   <ul class="share-options">
     <li class="share-option">
-      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=%2fblog%2ftheme%2f">
+      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=%2f2016%2f12%2f21%2fusing-r-in-a-blog%2f">
         <i class="fa fa-google-plus"></i><span>Share on Google Plus</span>
       </a>
     </li>
     <li class="share-option">
-      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2fblog%2ftheme%2f">
+      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=%2f2016%2f12%2f21%2fusing-r-in-a-blog%2f">
         <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
       </a>
     </li>
     <li class="share-option">
-      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=%2fblog%2ftheme%2f">
+      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=%2f2016%2f12%2f21%2fusing-r-in-a-blog%2f">
         <i class="fa fa-twitter"></i><span>Share on Twitter</span>
       </a>
     </li>
@@ -467,6 +555,73 @@
       <div class="results">
         
         
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="../../../../2016/12/21/using-r-in-a-blog/">
+                <h3 class="media-heading">Using R in a blog</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">---
+author: "Andrie de Vries"
+title: "Using R in a blog"
+type: "post"
+date: "2016-12-21"
+categories: - "R"
+description: ""
+featured: ""
+featuredalt: ""
+featuredpath: ""
+---
+You can do many things with R, including writing blogs and blog posts.
+To build this site, I am using the Hugo static website generator, and the blogdown package.
+Using R and embedding code in the text
+This means I can embed R code directly in the text.</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="../../../../2016/12/20/hallo-world/">
+                <h3 class="media-heading">Hallo World</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">Every person has a different learning style. I learn best by experimenting and doing, frequently by writing R code. However, I frequently forget what I&rsquo;ve done or how to do it. And sometimes I just want to share my ideas with others.
+My intention with this blog is to write down random ideas on a variety of things I work on.
+So in this blog I will mainly explore the world of R, machine learning and statistics.</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="../../../../post/">
+                <h3 class="media-heading">Posts</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
       </div>
     </div>
     <div class="modal-footer">
@@ -474,7 +629,7 @@
          data-message-zero="no post found"
          data-message-one="1 post found"
          data-message-other="{n} posts found">
-         0 posts found
+         3 posts found
       </p>
     </div>
   </div>
@@ -493,7 +648,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.js"></script>
 
 
-<script src="../../js/script-wl33z0n6ocaypepiqrazthtivfrliqijej4rq8ek8gvrv1awftmgjuv8k4zc.min.js"></script>
+<script src="../../../../js/script-wl33z0n6ocaypepiqrazthtivfrliqijej4rq8ek8gvrv1awftmgjuv8k4zc.min.js"></script>
 
 <script>
 $(document).ready(function() {
@@ -518,9 +673,9 @@ $(document).ready(function() {
     
       <script>
         var disqus_config = function () {
-          this.page.url = '\/blog\/theme\/';
+          this.page.url = '\/2016\/12\/21\/using-r-in-a-blog\/';
           
-            this.page.identifier = '\/blog\/theme\/'
+            this.page.identifier = '\/2016\/12\/21\/using-r-in-a-blog\/'
           
         };
         (function() {

@@ -8,23 +8,17 @@
   </url>
   
   <url>
-    <loc>/blog/2016-12-21-using-r-in-a-blog/</loc>
+    <loc>/2016-12/using-r-in-a-blog/</loc>
     <lastmod>2016-12-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2016-12-20-hallo-world/</loc>
+    <loc>/2016-12/hallo-world/</loc>
     <lastmod>2016-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/archives/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
-    <lastmod>2016-12-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,6 +30,12 @@
   <url>
     <loc>/categories/general/</loc>
     <lastmod>2016-12-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2016-12-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

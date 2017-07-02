@@ -25,10 +25,10 @@ He is also a regular speaker at R and industry events, including:
     
     <item>
       <title>Using R in a blog</title>
-      <link>/blog/2016-12-21-using-r-in-a-blog/</link>
+      <link>/2016-12/using-r-in-a-blog/</link>
       <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2016-12-21-using-r-in-a-blog/</guid>
+      <guid>/2016-12/using-r-in-a-blog/</guid>
       <description>You can do many things with R, including writing blogs and blog posts.
 To build this site, I am using the Hugo static website generator, and the blogdown package.
 Using R and embedding code in the textThis means I can embed R code directly in the text.
@@ -38,13 +38,13 @@ So I can do this:</description>
     
     <item>
       <title>Hallo World</title>
-      <link>/blog/2016-12-20-hallo-world/</link>
+      <link>/2016-12/hallo-world/</link>
       <pubDate>Tue, 20 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2016-12-20-hallo-world/</guid>
-      <description>I have many ideas and explore some of them. But my memory is short, so I tend to forget what I&amp;rsquo;ve done or how to do it.
+      <guid>/2016-12/hallo-world/</guid>
+      <description>Every person has a different learning style. I learn best by experimenting and doing, frequently by writing R code. However, I frequently forget what I&amp;rsquo;ve done or how to do it. And sometimes I just want to share my ideas with others.
 My intention with this blog is to write down random ideas on a variety of things I work on.
-So in this blog I will explore the world of R, machine learning and advanced analytics on Azure Cortana Intelligence Suite (CIS). But expect to get random ideas on Python, software development and other topics.</description>
+So in this blog I will mainly explore the world of R, machine learning and statistics.</description>
     </item>
     
   </channel>
