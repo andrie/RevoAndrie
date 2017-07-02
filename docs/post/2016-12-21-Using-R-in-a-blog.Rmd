@@ -15,8 +15,6 @@ featuredpath: ""
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-You can do many things with R, including writing blogs and blog posts.
-
 To build this site, I am using the [Hugo](http://gohugo.io/) static website generator, and the [`blogdown`](https://github.com/rstudio/blogdown) package.
 
 ## Using R and embedding code in the text

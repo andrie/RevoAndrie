@@ -33,9 +33,9 @@ publishdir = "docs"
   archive = "archives"
 
 [author]
-  name = "Andrie de Vries"
+  name = "Revo::Andrie (Andrie de Vries)"
   bio = "Mostly R, machine learning and AI"
-  job = "Data science lead, Microsoft"
+  job = "Data Scientist and Programme Manager"
   location = "London, United Kingdom"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   # gravatarEmail = "thibaud.lepretre@gmail.com"
