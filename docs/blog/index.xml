@@ -20,7 +20,7 @@
       <description>You can do many things with R, including writing blogs and blog posts.
 To build this site, I am using the Hugo static website generator, and the blogdown package.
 Using R and embedding code in the textThis means I can embed R code directly in the text.
-The blogdown::serve_site() function then renders the content automatically (by first running rmarkdown and then letting Hugo buidl the site).
+The blogdown::serve_site() function then renders the content automatically (by first running rmarkdown and then letting Hugo build the site).
 So I can do this:</description>
     </item>
     
@@ -33,15 +33,6 @@ So I can do this:</description>
       <description>I have many ideas and explore some of them. But my memory is short, so I tend to forget what I&amp;rsquo;ve done or how to do it.
 My intention with this blog is to write down random ideas on a variety of things I work on.
 So in this blog I will explore the world of R, machine learning and advanced analytics on Azure Cortana Intelligence Suite (CIS). But expect to get random ideas on Python, software development and other topics.</description>
-    </item>
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>/blog/theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/theme/</guid>
-      <description>Introduction All of this is made up.</description>
     </item>
     
   </channel>

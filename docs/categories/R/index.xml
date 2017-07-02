@@ -20,7 +20,7 @@
       <description>You can do many things with R, including writing blogs and blog posts.
 To build this site, I am using the Hugo static website generator, and the blogdown package.
 Using R and embedding code in the textThis means I can embed R code directly in the text.
-The blogdown::serve_site() function then renders the content automatically (by first running rmarkdown and then letting Hugo buidl the site).
+The blogdown::serve_site() function then renders the content automatically (by first running rmarkdown and then letting Hugo build the site).
 So I can do this:</description>
     </item>
     
