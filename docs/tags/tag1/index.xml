@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag1 on Revo::Andrie</title>
+    <link>https://andrie.github.io/revo-andrie/tags/tag1/</link>
+    <description>Recent content in Tag1 on Revo::Andrie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    
+	<atom:link href="https://andrie.github.io/revo-andrie/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Andrie de Vries</title>
+      <link>https://andrie.github.io/revo-andrie/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrie.github.io/revo-andrie/about/</guid>
+      <description>Andrie de Vries is a data scientist, author and R programmer.
+Andrie is co-author of the book R for dummies, the book that helps everyone getting started with R, regardless of prior programming knowledge. He is also a regular contributor to the question and answer site StackOverflow.
+
+He is also a regular speaker at R and industry events, including:
+ 2017  UseR!2017: Can you keep a secret?. You can watch a video recording of this session.</description>
+    </item>
+    
+  </channel>
+</rss>

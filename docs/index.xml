@@ -6,22 +6,10 @@
     <description>Recent content on Revo::Andrie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 28 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Dec 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://andrie.github.io/revo-andrie/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About Andrie</title>
-      <link>https://andrie.github.io/revo-andrie/about/</link>
-      <pubDate>Wed, 28 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://andrie.github.io/revo-andrie/about/</guid>
-      <description>Andrie de Vries is a data scientist, author and R programmer.
-Andrie is co-author of the book R for dummies, the book that helps everyone getting started with R, regardless of prior programming knowledge. He is also a regular contributor to the question and answer site StackOverflow.
-He is also a regular speaker at R and industry events, including:
- UseR!2016: Tutorial - Using R with Jupyter notebooks for reproducible research Machine Learning and Data Science conference, Bangalore 2016: Microsoft R Server &amp;amp; Applications: Comprehensive Overview EARL London, 2015: Reproducible Data Analysis with Revolution R Open (agenda) UseR!</description>
-    </item>
     
     <item>
       <title>Using R in a blog</title>
@@ -30,7 +18,7 @@ He is also a regular speaker at R and industry events, including:
       
       <guid>https://andrie.github.io/revo-andrie/2016-12/using-r-in-a-blog/</guid>
       <description>To build this site, I am using the Hugo static website generator, and the blogdown package.
-Using R and embedding code in the textThis means I can embed R code directly in the text.
+Using R and embedding code in the textThis means I can embed R code directly in the text.
 The blogdown::serve_site() function then renders the content automatically (by first running rmarkdown and then letting Hugo build the site).
 So I can do this:
 1:50## [1] 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23## [24] 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46## [47] 47 48 49 50mean(1:50)## [1] 25.</description>
@@ -45,6 +33,19 @@ So I can do this:
       <description>Every person has a different learning style. I learn best by experimenting and doing, frequently by writing R code. However, I frequently forget what I&amp;rsquo;ve done or how to do it. And sometimes I just want to share my ideas with others.
 My intention with this blog is to write down random ideas on a variety of things I work on.
 So in this blog I will mainly explore the world of R, machine learning and statistics.</description>
+    </item>
+    
+    <item>
+      <title>Andrie de Vries</title>
+      <link>https://andrie.github.io/revo-andrie/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrie.github.io/revo-andrie/about/</guid>
+      <description>Andrie de Vries is a data scientist, author and R programmer.
+Andrie is co-author of the book R for dummies, the book that helps everyone getting started with R, regardless of prior programming knowledge. He is also a regular contributor to the question and answer site StackOverflow.
+
+He is also a regular speaker at R and industry events, including:
+ 2017  UseR!2017: Can you keep a secret?. You can watch a video recording of this session.</description>
     </item>
     
   </channel>

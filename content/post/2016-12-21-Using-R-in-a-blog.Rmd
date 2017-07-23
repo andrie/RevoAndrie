@@ -5,7 +5,7 @@ type: "post"
 date: "2016-12-21"
 categories: 
 - "R"
-description: ""
+description: "This is a summary of embedding R in a blog, using the Hugo static website generator and the blogdown package for R"
 featured: ""
 featuredalt: ""
 featuredpath: ""
@@ -17,10 +17,6 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 To build this site, I am using the [Hugo](http://gohugo.io/) static website generator, and the [`blogdown`](https://github.com/rstudio/blogdown) package.
 
-
-```{r echo=FALSE, results='markdown', comment=''}
-htmltools::HTML("<!--more-->")
-```
 
 # Using R and embedding code in the text
 

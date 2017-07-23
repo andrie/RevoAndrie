@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Category on Revo::Andrie</title>
+    <link>/categories/category/</link>
+    <description>Recent content in Category on Revo::Andrie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    
+	<atom:link href="/categories/category/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Andrie</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Andrie de Vries is a data scientist, author and R programmer.
+Andrie is co-author of the book R for dummies, the book that helps everyone getting started with R, regardless of prior programming knowledge. He is also a regular contributor to the question and answer site StackOverflow.
+He is also a regular speaker at R and industry events, including:
+ 2016  UseR!2016: Tutorial - Using R with Jupyter notebooks for reproducible research Machine Learning and Data Science conference, Bangalore 2016: Microsoft R Server &amp;amp; Applications: Comprehensive Overview  2015  EARL London, 2015: Reproducible Data Analysis with Revolution R Open (agenda) UseR!</description>
+    </item>
+    
+  </channel>
+</rss>
