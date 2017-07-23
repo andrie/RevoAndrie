@@ -23,7 +23,7 @@ paginate = 7
 canonifyurls = true
 
 publishdir = "docs"
-
+publishDir = "docs"
 [permalinks]
   post = "/:year-:month/:slug/"
 
@@ -77,7 +77,7 @@ publishdir = "docs"
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/#about"
+  url = "/about"
 
 [[menu.links]]
   weight = 0
@@ -104,7 +104,7 @@ publishdir = "docs"
   # You must use date format used by Go Time package https://golang.org/pkg/time/
   # Months (not work with short month like "jan", "feb", etc) are translated if translation exists on i18n folders
   # Default format is: January 2, 2006 
-  # dateFormat = "2 January 2006"
+  dateFormat = "2006-01-02"
 
   # Global keywords configuration. Following keywords will be add to every pages
   # keywords = ["development", "next-gen"]
