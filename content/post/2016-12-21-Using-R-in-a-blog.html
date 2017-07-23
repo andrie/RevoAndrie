@@ -12,13 +12,11 @@ featuredpath: ""
 ---
 
 
-<!-- BLOGDOWN-BODY-BEFORE
-
-/BLOGDOWN-BODY-BEFORE -->
 
 <p>To build this site, I am using the <a href="http://gohugo.io/">Hugo</a> static website generator, and the <a href="https://github.com/rstudio/blogdown"><code>blogdown</code></a> package.</p>
-<div id="using-r-and-embedding-code-in-the-text" class="section level2">
-<h2>Using R and embedding code in the text</h2>
+<!--more-->
+<div id="using-r-and-embedding-code-in-the-text" class="section level1">
+<h1>Using R and embedding code in the text</h1>
 <p>This means I can embed R code directly in the text.</p>
 <p>The <code>blogdown::serve_site()</code> function then renders the content automatically (by first running <code>rmarkdown</code> and then letting Hugo build the site).</p>
 <p>So I can do this:</p>
@@ -29,8 +27,8 @@ featuredpath: ""
 mean(1:50)
 ## [1] 25.5</code></pre>
 </div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
+<div id="including-plots" class="section level1">
+<h1>Including Plots</h1>
 <p>It is also easy to include plots:</p>
 <pre class="r"><code>par(mar = c(0, 1, 0, 1))
 pie(
@@ -39,16 +37,5 @@ pie(
   col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
   init.angle = -50, border = NA
 )</code></pre>
-<p><img src="#####../content/post/2016-12-21-Using-R-in-a-blog_files/figure-html/pie-1.png" width="672" /></p>
+<p><img src="/revo-andrie/post/2016-12-21-Using-R-in-a-blog_files/figure-html/pie-1.png" width="672" /></p>
 </div>
-
-
-
-<!-- BLOGDOWN-HEAD
-
-
-
-
-
-
-/BLOGDOWN-HEAD -->
