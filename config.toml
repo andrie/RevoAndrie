@@ -13,8 +13,8 @@
 # use grunt task `build` to synchronize assets
 
 baseurl = "https://andrie.github.io/revo-andrie/"
-languageCode = "en-uk"
-defaultContentLanguage = "en-uk"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
 title = "Revo::Andrie"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "revo-andrie"
