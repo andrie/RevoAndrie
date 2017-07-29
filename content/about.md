@@ -10,18 +10,20 @@ showDate:       false
 showSocial:     false
 showTags:       false
 showPagination: false
-#thumbnailImage: //example.com/image.jpg
+thumbnailImage: https://9ioiqa.bn1304.livefilestore.com/y4mYgOUJCOFx3y2QttyGAGfMRZQovpNyzZBZrgoa20QFXf4JQ6ZZbYVJmbIjf-TTduFL2cmyvK44b-jdn0JGivDagKWmUhw_QdSHYIkqQhNr9iNvmh8DXQIcyv6fryS6nd5zFp4Uhc1sSNp1AyuGUpK4RIZrP1DxIUf6k8u0vXhK3eaU5HLDMgJ1Rlx5nGI8LbommmkBcNJ_y7t0_jdqidBzQ?width=100&height=100&cropmode=none
 ---
 
-Andrie de Vries is a data scientist, author and R programmer.
+I am a data scientist, author and R programmer.
 
-Andrie is co-author of the book *R for dummies*, the book that helps everyone getting started with R, regardless of prior programming knowledge. He is also a regular contributor to the question and answer site [StackOverflow](https://stackoverflow.com/users/602276/andrie).
+I am co-author of the book *R for dummies*, the book that helps everyone getting started with R, regardless of prior programming knowledge.
+
+From time time I contribute to the question and answer site [StackOverflow](https://stackoverflow.com/users/602276/andrie), particularly in the `[R]` tag.
 
 <a href="https://stackoverflow.com/users/602276/andrie">
 <img src="https://stackoverflow.com/users/flair/602276.png" width="208" height="58" alt="profile for Andrie at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Andrie at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 </a>
 
-He is also a regular speaker at R and industry events, including:
+A few times every year I speak at R and industry events, including:
 
 * 2017
     - UseR!2017: [Can you keep a secret?](https://user2017.sched.com/event/d05811d3e0aac7067e09761cb71ad57a). You can watch a [video recording of this session](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Can-you-keep-a-secret).

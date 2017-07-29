@@ -22,7 +22,7 @@ disqusShortname = "revo-andrie"
 paginate = 7
 canonifyurls = true
 
-publishDir = "public"
+publishDir = "public" 
 
 [permalinks]
   post = "/:year-:month/:slug/"
@@ -37,11 +37,15 @@ publishDir = "public"
   bio = "Mostly R, data science and machine learning"
   job = "Data Scientist and Programme Manager"
   location = "London, United Kingdom"
+  
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "apdevries@gmail.com"
+  # gravatarEmail = "apdevries@gmail.com"
+
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
   # picture = "DSC_9944_desat_very_small.jpg"
+  picture = "https://9ioiqa.bn1304.livefilestore.com/y4mYgOUJCOFx3y2QttyGAGfMRZQovpNyzZBZrgoa20QFXf4JQ6ZZbYVJmbIjf-TTduFL2cmyvK44b-jdn0JGivDagKWmUhw_QdSHYIkqQhNr9iNvmh8DXQIcyv6fryS6nd5zFp4Uhc1sSNp1AyuGUpK4RIZrP1DxIUf6k8u0vXhK3eaU5HLDMgJ1Rlx5nGI8LbommmkBcNJ_y7t0_jdqidBzQ?width=100&height=100&cropmode=none"
+  
   # Your Twitter username without the @.
   twitter = "RevoAndrie"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
@@ -49,51 +53,51 @@ publishDir = "public"
 
 # Menu Configuration
 [[menu.main]]
-  weight = 0
+  weight = 1
   identifier = "home"
   name = "Home"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
   url = "/"
 [[menu.main]]
-  weight = 1
+  weight = 2
+  identifier = "about"
+  name = "About"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  url = "/about"
+[[menu.main]]
+  weight = 3
   identifier = "categories"
   name = "Categories"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
   url = "/categories"
 [[menu.main]]
-  weight = 2
+  weight = 4
   identifier = "tags"
   name = "Tags"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
   url = "/tags"
 [[menu.main]]
-  weight = 3
+  weight = 5
   identifier = "archives"
   name = "Archives"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
   url = "/archives"
-[[menu.main]]
-  weight = 4
-  identifier = "about"
-  name = "About"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/about"
 
 [[menu.links]]
-  weight = 0
+  weight = 1
   identifier = "github"
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
   url = "https://github.com/andrie"
 [[menu.links]]
-  weight = 1
+  weight = 2
   identifier = "stackoverflow"
   name = "Stack Overflow"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
   url = "https://stackoverflow.com/users/602276/andrie?tab=profile"
 
 [[menu.misc]]
-  weight = 0
+  weight = 3
   identifier = "rss"
   name = "RSS"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
@@ -140,7 +144,8 @@ publishDir = "public"
   # Otherwise put your image in folder `static/_images/` (development)  or in `source/assets/images/` if you can't or don't want to build the theme,
   # and use relative url : `your-image.png`
   
-  coverImage = "CRAN-greyscale.png"
+  #coverImage = "CRAN-greyscale.png"
+  coverImage = "https://9srqpw.bn1304.livefilestore.com/y4mV5QTSyaFgOcZR_UxcvRFk26nkHfa7QE6YYJ_7tKq8Kn8uJjOs8OOqUYl72ulOkLvtXY7-SWHB2xXyFvmC7yfIPAz-8WIf88J6V5TkeRn1cfOiwmfJozhBUKg2S3SWio8jvNfZN9VeduOUEJmFrt3fRTbcc6RW4BPao7z6h6CWjKmBBDvCZh4gHuGaXtMIu28IKjtjPHmxA8CcNTmOpQ72w?width=1024&height=529&cropmode=none"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true
