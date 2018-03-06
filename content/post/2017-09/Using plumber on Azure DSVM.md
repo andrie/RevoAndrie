@@ -1,15 +1,12 @@
 ---
 author: "Andrie de Vries"
 linktitle: "plumber-on-azure"
-title: Using the plumber package to expose services on the Azure DSVM
+title: "Using the plumber package to expose services on the Azure DSVM"
 tags: 
  - "R"
  - "Azure"
-date: "2017-09-12"
+date: "2017-09-12T06:00:00Z"
 description: "The `plumber` package allows you to easily publish R scripts as web services. In this post I explain how to use this package on the Azure data science virtual machine."
-featured: ""
-featuredalt: ""
-featuredpath: ""
 type: "post"
 ---
 

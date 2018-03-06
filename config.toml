@@ -16,7 +16,7 @@
 baseurl = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Revo::Andrie"
+title = "RevoAndrie"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "revo-andrie"
 # googleAnalytics = "UA-123-45"
@@ -37,7 +37,7 @@ publishDir = "public"
 [author]
   name = "Revo::Andrie (Andrie de Vries)"
   bio = "Mostly R, data science and machine learning"
-  job = "Data Scientist and Programme Manager"
+  job = "Data scientist and Solutions architect at RStudio"
   location = "London, United Kingdom"
   
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog

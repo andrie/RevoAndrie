@@ -1,10 +1,5 @@
 ---
 title: "Andrie de Vries"
-comments:       false
-showDate:       false
-showSocial:     false
-showTags:       false
-showPagination: false
 thumbnailImage: https://9ioiqa.bn1304.livefilestore.com/y4mYgOUJCOFx3y2QttyGAGfMRZQovpNyzZBZrgoa20QFXf4JQ6ZZbYVJmbIjf-TTduFL2cmyvK44b-jdn0JGivDagKWmUhw_QdSHYIkqQhNr9iNvmh8DXQIcyv6fryS6nd5zFp4Uhc1sSNp1AyuGUpK4RIZrP1DxIUf6k8u0vXhK3eaU5HLDMgJ1Rlx5nGI8LbommmkBcNJ_y7t0_jdqidBzQ?width=100&height=100&cropmode=none
 ---
 
