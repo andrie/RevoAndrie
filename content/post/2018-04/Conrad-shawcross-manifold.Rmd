@@ -1,0 +1,120 @@
+---
+author: "Andrie de Vries"
+title: "The manifold art of Conrad Shawcross"
+type: "post"
+draft: "false"
+date: "2018-04-16"
+categories: 
+  - "R"
+tags:
+  - "Art"
+description: "The manifold art of Conrad Shawcross"
+featured: ""
+featuredalt: ""
+featuredpath: ""
+thumbnailImagePosition: right
+thumbnailImage: images/2018-04/manifold2-9-8.jpg
+---
+  
+```{r setup, include=FALSE}
+library(knitr)
+
+knitr::opts_chunk$set(collapse = TRUE)
+rgl::setupKnitr()
+knit_hooks$set(webgl = rgl::hook_webgl)
+
+```
+
+
+Intro
+```{r, echo=FALSE}
+blogdown::shortcode(
+  'image',  
+  src = "/images/2018-04/manifold2-9-8.jpg", 
+  classes = "fancybox right clear")
+```
+
+
+```{r, echo=FALSE}
+blogdown::shortcode(
+  'image',  
+  src = "/images/2018-04/conrad-shawcross-moorgate-manifold.jpg", 
+  classes = "fancybox right clear")
+```
+
+
+On close inspection I could see some equations in the drawing
+
+```{r, echo=FALSE}
+blogdown::shortcode(
+  'image',  
+  src = "/images/2018-04/conrad-shawcross-equations.jpg", 
+  classes = "fancybox right clear")
+```
+
+
+
+## The code
+
+My attempt at replicating the manifold, using code
+
+
+```{r manifold-equation}
+manifold <- function(psi, R1 = 1, R2 = 0.5, H = 7){
+  theta <- 5/4 * psi
+  x <- R1 * cos(psi) + R2 * cos(psi) * cos(theta)
+  y <- R1 * sin(psi) + R2 * sin(psi) * cos(theta)
+  z <- H * (1 - psi / (60 * pi)) + R2 * sin(psi)
+  
+  decay <- function(x){
+    x * 2/3 * z^2 / H^2
+  }
+  
+  as.data.frame(cbind(
+    x = decay(x),
+    y = decay(y),
+    z = z
+  ))
+}
+```
+
+
+Having defined the function, generate some values of the data.
+
+```{r generate values}
+x <- seq(0, 30 * 7, by = 0.01)
+dat <- manifold(x)
+head(dat)
+```
+
+Now you can plot the results. First, the view from the top down:
+
+```{r ggplot-1, fig.width=6, fig.height=3}
+library(ggplot2)
+ggplot(dat, aes(x = x, y = y, col = z)) + 
+  geom_point(size = 0.1) + 
+  coord_equal() + 
+  scale_color_gradient(low = "grey80", high = "black") +
+  theme_minimal()
+```
+
+And next, a sideways view:
+
+```{r ggplot-2, fig.width=6, fig.height=3}
+ggplot(dat, aes(x = z, y = x, col = y)) + 
+  geom_point(size = 0.1) + 
+  scale_color_gradient(low = "grey50", high = "black") +
+  coord_equal() + 
+  theme_minimal()
+
+
+```
+
+You can also use `rgl` to create an interactive 3D viewer. Note that you can rotate the object by clicking and dragging on the plot:
+
+```{r webgl, webgl=TRUE}
+library(rgl)
+with(dat, plot3d(x, y, z))
+```
+
+
