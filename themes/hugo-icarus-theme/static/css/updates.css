@@ -1,0 +1,17 @@
+.article-entry img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+}
+
+.thumbnail-image img {
+    float: right;
+}
+ 
+.thumbnail-image img {
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+}

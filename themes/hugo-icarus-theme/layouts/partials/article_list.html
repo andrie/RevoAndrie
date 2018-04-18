@@ -1,0 +1,58 @@
+<section id="main">
+    {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+    {{ range $paginator.Pages }}
+    <article class="article article-type-post" itemscope="" itemprop="blogPost">
+        <div class="article-inner">
+            {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
+                <a href="{{ .Permalink }}" itemprop="url">
+                    <img src="{{ .Params.banner | absURL }}" class="article-banner">
+                </a>
+            {{ end }}
+
+            <header class="article-header">
+                <a href="{{ .Permalink }}">
+                <h1 class="article-title" itemprop="name">
+                    {{ .Title }}
+                </h1>
+                </a>
+                {{ if and (isset .Params "author") (not (eq .Params.author "")) }}
+                    <div class="article-meta">
+                        <div>
+                            <i class="fa fa-user"></i>
+                            {{ .Params.author }}
+                            <i class="fa fa-calendar"></i>
+                            <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
+                        </div>
+                    </div>
+                {{ end }}
+            </header>
+            {{ if and (isset .Params "thumbnail") (not (eq .Params.thumbnail "")) }}
+                <div class="thumbnail-image">
+                    <a href="{{ .Permalink }}" itemprop="url">
+                        <img src="{{ .Params.thumbnail | absURL }}" class="article-banner">
+                    </a>
+                </div>
+            {{ end }}
+            <div class="article-entry" itemprop="articleBody">
+                <p>
+                  {{ if and (isset .Params "summary") (not (eq .Params.summary "")) }}
+                    {{ printf "%s" .Params.summary | markdownify }}
+                  {{else}}
+                    {{ printf "%s" .Summary | markdownify }}
+                  {{ end }}
+                    <br>
+                </p>
+                <p class="article-more-link">
+                    <a href="{{ .Permalink }}">
+                        {{with .Site.Data.l10n.articles.read_more}}{{.}}{{end}}
+                    </a>
+                </p>
+            </div>
+            {{ partial "article_footer" . }}
+        </div>
+    </article>
+    {{ end }}
+
+    {{ partial "pagination" . }}
+</section>
+<!-- // main section -->
