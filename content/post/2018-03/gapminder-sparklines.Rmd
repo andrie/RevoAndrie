@@ -1,0 +1,64 @@
+---
+author: "Andrie de Vries"
+title: "Creating sparklines in tables"
+type: "post"
+draft: "false"
+date: "2018-03-16"
+categories: 
+  - "R"
+tags:
+  - "Sparklines"
+summary: "Creating sparklines in tables, using the gapminder data"
+thumbnail: images/2018-03/sparklines-table.png
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+
+Intro
+
+
+
+
+## The code
+
+Load the required packages
+
+```{r load-packages}
+library(tidyverse)
+library(gapminder)
+library(sparkline)
+library(formattable)
+library(DT)
+```
+
+
+Some helper functions to round numbers and get the last element of a vector
+
+```{r helpers}
+round_0 <- function(x) round(x, digits = 0)
+round_1 <- function(x) round(x, digits = 1)
+last_round_1 <- function(x) dplyr::last(x) %>% round_1()
+last_round_0 <- function(x) dplyr::last(x) %>% round_0()
+```
+
+Compute the summaries
+
+```{r sparklines}
+gapminder %>%
+  filter(continent == "Africa") %>% 
+  group_by(country) %>%
+  summarise(
+    `life expectancy` = spk_chr(round_1(lifeExp)),
+    `life expectancy (years)` = last_round_1(lifeExp),
+    `gdp per capita` = spk_chr(gdpPercap %>% round_0()),
+    `gdp per capita (USD)` = last_round_0(gdpPercap),
+    `population (M)` = last_round_1(pop / 1e6)
+  ) %>% 
+  formattable() %>% 
+  as.datatable() %>% 
+  spk_add_deps() 
+```
+

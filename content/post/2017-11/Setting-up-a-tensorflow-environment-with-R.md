@@ -6,14 +6,11 @@ draft: "false"
 date: "2017-11-22T06:00:00Z"
 categories: 
 - "R"
+- "TensorFlow"
 tags:
 - "package"
-description: "Setting up a tensorflow environment with R"
-featured: ""
-featuredalt: ""
-featuredpath: ""
-thumbnailImagePosition: right
-thumbnailImage: "images/2017-11/tensorflow.jpg"
+summary: "Setting up a tensorflow environment with R"
+thumbnail: "images/2017-11/tensorflow.jpg"
 ---
 
 
