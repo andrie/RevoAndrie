@@ -8,7 +8,7 @@ categories:
   - "R"
 tags:
   - "Sparklines"
-summary: "Creating sparklines in tables, using the gapminder data"
+summary: "Sparklines is a useful tool for visualizing time series data using small inline plots. In this post I demonstrate how to create sparklines in tables, using the gapminder data."
 thumbnail: images/2018-03/sparklines-table.png
 ---
   
@@ -17,8 +17,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 ```
 
 
-Intro
-
+Sparklines is a useful tool for visualizing time series data using small inline plots. In this post I demonstrate how to create sparklines in tables, using the gapminder data.
 
 
 
