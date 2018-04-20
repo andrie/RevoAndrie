@@ -57,7 +57,7 @@ gapminder %>%
     `population (M)` = last_round_1(pop / 1e6)
   ) %>% 
   formattable() %>% 
-  as.datatable() %>% 
+  as.datatable() %>%
   spk_add_deps() 
 ```
 
