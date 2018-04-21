@@ -1,0 +1,47 @@
+---
+title: "About"
+date: 2018-04-20
+menu: "main"
+disable_comments: true
+---
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+blogdown::shortcode("figure", src = "https://9ioiqa.bn1304.livefilestore.com/y4mYgOUJCOFx3y2QttyGAGfMRZQovpNyzZBZrgoa20QFXf4JQ6ZZbYVJmbIjf-TTduFL2cmyvK44b-jdn0JGivDagKWmUhw_QdSHYIkqQhNr9iNvmh8DXQIcyv6fryS6nd5zFp4Uhc1sSNp1AyuGUpK4RIZrP1DxIUf6k8u0vXhK3eaU5HLDMgJ1Rlx5nGI8LbommmkBcNJ_y7t0_jdqidBzQ?width=100&height=100&cropmode=none")
+```
+
+I am a data scientist, author and R programmer.
+
+I am co-author of the book *R for dummies*, the book that helps everyone getting started with R, regardless of prior programming knowledge.
+
+From time time I contribute to the question and answer site [StackOverflow](https://stackoverflow.com/users/602276/andrie), particularly in the `[R]` tag.
+
+<a href="https://stackoverflow.com/users/602276/andrie">
+<img src="https://stackoverflow.com/users/flair/602276.png" width="208" height="58" alt="profile for Andrie at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Andrie at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a>
+
+
+
+A few times every year I speak at R and industry events, including:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+rel_ref <- function(link, name){
+    sprintf("<a href=\"%s\">%s</a>", link, name)
+}
+clean_na <- function(x) if_else(is.na(x), "", x)
+
+library(knitr)
+library(readr)
+library(dplyr)
+read_csv("Event_speaking_slots.csv", col_types = "cccccc") %>% 
+  mutate_all(clean_na) %>% 
+  mutate(
+    Event = if_else(Event_link == "", Event, sprintf("[%s](%s)", Event, Event_link)),
+    Blog = ifelse(Blog == "", "", rel_ref(Blog, Topic)),
+    Topic = if_else(Blog != "", Blog, 
+                    if_else(Topic_link == "", Topic, sprintf("[%s](%s)", Topic, Topic_link))
+                    ),
+  ) %>% 
+  select(-c(Event_link, Topic_link, Blog)) %>% 
+  kable()
+```
