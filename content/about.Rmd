@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2018-04-20
+date: 2020-02-02
 menu: "main"
 disable_comments: true
 ---
@@ -28,10 +28,13 @@ rel_ref <- function(link, name){
 }
 clean_na <- function(x) if_else(is.na(x), "", x)
 
-library(knitr)
-library(readr)
-library(dplyr)
-read_csv("Event_speaking_slots.csv", col_types = "cccccc") %>% 
+suppressPackageStartupMessages({
+  library(knitr)
+  library(readr)
+  library(dplyr)
+})
+
+read_csv("Event_speaking_slots.csv", col_types = "ccccccc") %>% 
   mutate_all(clean_na) %>% 
   mutate(
     Event = if_else(Event_link == "", Event, sprintf("[%s](%s)", Event, Event_link)),
