@@ -19,6 +19,7 @@ From time time I contribute to the question and answer site [StackOverflow](http
 <img src="https://stackoverflow.com/users/flair/602276.png" width="208" height="58" alt="profile for Andrie at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Andrie at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 </a>
 
+
 A few times every year I speak at R and industry events, including:
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}

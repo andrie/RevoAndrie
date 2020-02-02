@@ -6,7 +6,7 @@ Year,Event,City,Event_link,Topic,Topic_link,Blog
 2018,EARL London,"London, UK",https://earlconf.com/index.html,Taking TensorFlow into production,,
 ,Google NEXT,"San Francisco, CA",,Using TensorFlow with R,,
 ,eRum (European R user meeting),"Budapest, Hungary",,Tools for using TensorFlow,,
-,RStudio Webinar,Webinar,,Trainging your TensorFlow models in the cloud,https://resources.rstudio.com/webinars/training-your-tensorflow-models-in-the-cloud-andrie-de-vries,
+,RStudio Webinar,Webinar,,Training your TensorFlow models in the cloud,https://resources.rstudio.com/webinars/training-your-tensorflow-models-in-the-cloud-andrie-de-vries,
 ,LondonR,"London, UK",,Using TensorFlow with R,https://www.londonr.org/tools-for-using-tensorflow-with-r/,
 ,IBM Index,"San Francisco, CA",,Using TensorFlow with R,,
 2017,UseR!2017,"Brussels, Belgium",https://user2017.brussels/,Can you keep a secret?,https://user2017.sched.com/event/d05811d3e0aac7067e09761cb71ad57a,/2017-07/Can-you-keep-a-secret
