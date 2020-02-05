@@ -22,7 +22,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
     # Tell me who you are
     author = "Andrie de Vries"
-    bio = "Musings by Andrie de Vries, mostly about R, data science and machine learning."
+    bio = "Musings by Andrie de Vries, mostly about data science, programming with R and using R in production."
     location = "London, United Kingdom"
     site_description = ""
     copyright  = "(c) 2017-2020 Andrie de Vries"
