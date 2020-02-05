@@ -6,9 +6,10 @@ draft: "false"
 date: "2018-04-16"
 categories: 
   - "R"
+  - "Art"
 tags:
   - "Art"
-summary: "The manifold art of Conrad Shawcross"
+summary: "Inspired by a museum visit, I attempt to recreate the shape of 'manifold', a sculpture by Conrad Shawcross"
 thumbnail: images/2018-04/manifold2-9-8.jpg
 ---
   
@@ -22,28 +23,36 @@ knit_hooks$set(webgl = rgl::hook_webgl)
 ```
 
 
-Intro
+During April, 2018, I went to visit the [Whitechapel Art Gallery](https://www.whitechapelgallery.org/), a wonderful art gallery in the center of London.
+
+One of the exhibits on display was a piece by [Conrad Shawcross](http://conradshawcross.com/), as part of his exhibition on [Art Capital: Art for the Elizabeth line](http://conradshawcross.com/news-2/) that ran from 13 March to 6 May 2018.
+
+One of the pieces on display was design drawings of his "Manifold" sculpture that is [positioned outside the Moorgate entrance](https://www.victoria-miro.com/news/949) of the Elizabeth line station in London.
+
+He has created a number of pieces in his manifold series, e.g. "Manifold 2 (9:8)" that was [exhibited at the New Art Centre](https://sculpture.uk.com/programme/conrad-shawcross-manifold/) in Salisbury, Wiltshire:
+
 ```{r, echo=FALSE}
 blogdown::shortcode("figure", src = "/images/2018-04/manifold2-9-8.jpg")
 ```
 
+At the Whitechapel exhibition, I took a picture of the design drawings for the "Moorgate Manifold", that shows various views, including top, side and cutout views:
 
 ```{r, echo=FALSE}
 blogdown::shortcode("figure", src = "/images/2018-04/conrad-shawcross-moorgate-manifold.jpg")
 ```
 
 
-On close inspection I could see some equations in the drawing
+On close inspection I could see some equations in the drawing:
 
 ```{r, echo=FALSE}
 blogdown::shortcode("figure", src = "/images/2018-04/conrad-shawcross-equations.jpg")
 ```
 
-
+Clearly the original idea was based on a mathematical equation, so I set about trying to replicate this drawing using R code.
 
 ## The code
 
-My attempt at replicating the manifold, using code
+My attempt at replicating the manifold, using code. I had to guess (by experimentation) the initial values of `R1`, `R2` and `H`.  I also had to guess that the decay rate is a function that only applies to the `x` and `y` dimensions.
 
 
 ```{r manifold-equation}
@@ -66,7 +75,7 @@ manifold <- function(psi, R1 = 1, R2 = 0.5, H = 7){
 ```
 
 
-Having defined the function, generate some values of the data.
+Having defined the function, it is straight-forward to generate some values of the data.
 
 ```{r generate values}
 x <- seq(0, 30 * 7, by = 0.01)
